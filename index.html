@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SSR订阅提取</title>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<center>
+		<h2>SSR订阅提取</h2>
+		<form action="get.php" method="GET">
+			<div id="info" style="margin-bottom:3em">
+				订阅地址：<input type="text" name="url" style="width:40%" required="required"/>
+				<br>
+				地区选择：
+				<input type="checkbox" name="hk" value="1" />香港
+				<input type="checkbox" name="us" value="1" />美国
+				<input type="checkbox" name="jp" value="1" />日本
+				<input type="checkbox" name="kr" value="1" />韩国
+				<input type="checkbox" name="sg" value="1" />新加坡
+				<br>
+				<input type="checkbox" name="eng" value="1" />将国家名用缩写代替
+			</div>
+			<input type="submit" value="提交" />
+		</form>
+	<center>
+
+	<footer>
+	  <p><small>By <a href="http://hicasper.com">hiCasper</a></small></p>
+	</footer>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?b80974a784c1807a572f8d52160788b1";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</body>
+</html>
