@@ -44,8 +44,7 @@ foreach($Sub as &$str) {
 			$nodeName = str_replace("韩国", "KR", $nodeName);
 		}
 
-		$nodeName = str_replace(" - 543 端口单端口多用户", "", $nodeName);
-		$nodeName = str_replace(" - 587 端口单端口多用户", "", $nodeName);
+		$nodeName = str_replace("单端口多用户", "", $nodeName);
 		$nodeName = str_replace("清真", "", $nodeName);
 		$nodeName = str_replace("等级1-", "", $nodeName);
 		$nodeName = str_replace("等级2-", "", $nodeName);
